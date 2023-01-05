@@ -5,6 +5,7 @@ from dash import dcc, html
 from dash.dependencies import Input, Output
 
 app = dash.Dash()
+server= app.server
 
 #from GZ_ScoringScatterPlt import *
 tipo_de_proyectos= ["Edificios residenciales",
